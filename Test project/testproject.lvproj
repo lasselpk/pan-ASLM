@@ -21,9 +21,26 @@
 		<Item Name="Digital_write.vi" Type="VI" URL="../Digital_write.vi"/>
 		<Item Name="Digital_write_PFI_trigger.vi" Type="VI" URL="../Digital_write_PFI_trigger.vi"/>
 		<Item Name="Digital_write_signal.vi" Type="VI" URL="../Digital_write_signal.vi"/>
+		<Item Name="eventListenerTest.vi" Type="VI" URL="../eventListenerTest.vi"/>
 		<Item Name="get_stage_position.vi" Type="VI" URL="../get_stage_position.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="SAE_stage_control.vi" Type="VI" URL="../SAE_stage_control.vi"/>
+		<Item Name="stage Line" Type="NI-DAQmx Channel">
+			<Property Name="ChanType" Type="Str">Digital Output</Property>
+			<Property Name="Descr" Type="Str"></Property>
+			<Property Name="DO.InvertLines" Type="Str">0</Property>
+			<Property Name="Name" Type="Str">stage Line</Property>
+			<Property Name="PhysicalChanName" Type="Str">Dev2/port0/line0</Property>
+		</Item>
+		<Item Name="stage line2" Type="NI-DAQmx Task">
+			<Property Name="\0\ChanType" Type="Str">Digital Output</Property>
+			<Property Name="\0\DO.InvertLines" Type="Str">0</Property>
+			<Property Name="\0\Name" Type="Str">stage line2/DigitalOut</Property>
+			<Property Name="\0\PhysicalChanName" Type="Str">Dev2/port0/line0</Property>
+			<Property Name="Channels" Type="Str">stage line2/DigitalOut</Property>
+			<Property Name="Name" Type="Str">stage line2</Property>
+			<Property Name="SampTimingType" Type="Str">On Demand</Property>
+		</Item>
 		<Item Name="Stage_enable.vi" Type="VI" URL="../Stage_enable.vi"/>
 		<Item Name="Stage_move_axis.vi" Type="VI" URL="../Stage_move_axis.vi"/>
 		<Item Name="Stage_move_to_destination.vi" Type="VI" URL="../Stage_move_to_destination.vi"/>
