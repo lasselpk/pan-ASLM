@@ -23,6 +23,8 @@
 		<Item Name="Digital_write_signal.vi" Type="VI" URL="../Digital_write_signal.vi"/>
 		<Item Name="eventListenerTest.vi" Type="VI" URL="../eventListenerTest.vi"/>
 		<Item Name="get_stage_position.vi" Type="VI" URL="../get_stage_position.vi"/>
+		<Item Name="Global stop DAQ.vi" Type="VI" URL="../Global stop DAQ.vi"/>
+		<Item Name="Global stop.vi" Type="VI" URL="../Global stop.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="SAE_stage_control.vi" Type="VI" URL="../SAE_stage_control.vi"/>
 		<Item Name="stage Line" Type="NI-DAQmx Channel">
