@@ -10,6 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="AOTF laser control manual.vi" Type="VI" URL="../AOTF laser control manual.vi"/>
 		<Item Name="Control_stage.vi" Type="VI" URL="../Control_stage.vi"/>
 		<Item Name="Control_stage_2.vi" Type="VI" URL="../Control_stage_2.vi"/>
 		<Item Name="Control_stage_event_que.vi" Type="VI" URL="../Control_stage_event_que.vi"/>
@@ -25,7 +26,24 @@
 		<Item Name="get_stage_position.vi" Type="VI" URL="../get_stage_position.vi"/>
 		<Item Name="Global stop DAQ.vi" Type="VI" URL="../Global stop DAQ.vi"/>
 		<Item Name="Global stop.vi" Type="VI" URL="../Global stop.vi"/>
+		<Item Name="Laser_toggles_typedef.ctl" Type="VI" URL="../typedefs/Laser_toggles_typedef.ctl"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="ProjectPulseOutputTask" Type="NI-DAQmx Task">
+			<Property Name="\0\ChanType" Type="Str">Counter Output</Property>
+			<Property Name="\0\CO.OutputType" Type="Str">Pulse:Time</Property>
+			<Property Name="\0\CO.Pulse.HighTime" Type="Str">0.01</Property>
+			<Property Name="\0\CO.Pulse.IdleState" Type="Str">Low</Property>
+			<Property Name="\0\CO.Pulse.LowTime" Type="Str">0.01</Property>
+			<Property Name="\0\CO.Pulse.Time.InitialDelay" Type="Str">0</Property>
+			<Property Name="\0\CO.Pulse.Time.Units" Type="Str">Seconds</Property>
+			<Property Name="\0\Name" Type="Str">ProjectPulseOutputTask/PulseOutput</Property>
+			<Property Name="\0\PhysicalChanName" Type="Str">Dev2/ctr2</Property>
+			<Property Name="Channels" Type="Str">ProjectPulseOutputTask/PulseOutput</Property>
+			<Property Name="Name" Type="Str">ProjectPulseOutputTask</Property>
+			<Property Name="SampQuant.SampMode" Type="Str">Finite Samples</Property>
+			<Property Name="SampQuant.SampPerChan" Type="Str">1</Property>
+			<Property Name="SampTimingType" Type="Str">Implicit</Property>
+		</Item>
 		<Item Name="SAE_stage_control.vi" Type="VI" URL="../SAE_stage_control.vi"/>
 		<Item Name="stage Line" Type="NI-DAQmx Channel">
 			<Property Name="ChanType" Type="Str">Digital Output</Property>
@@ -270,6 +288,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Laser_order_controller_vi.vi" Type="VI" URL="../../pan-ASLM project/Laser_order_controller_vi.vi"/>
+			<Item Name="Laser_toggles__manual_typedef.ctl" Type="VI" URL="../typedefs/Laser_toggles__manual_typedef.ctl"/>
 			<Item Name="Laser_toggles_typedef.ctl" Type="VI" URL="../../pan-ASLM project/type_defs/Laser_toggles_typedef.ctl"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
