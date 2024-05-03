@@ -19,6 +19,8 @@
 		<Item Name="Dac_Output_cam_trig_multiple_digital_signals.vi" Type="VI" URL="../Dac_Output_cam_trig_multiple_digital_signals.vi"/>
 		<Item Name="Dac_release_all_lines.vi" Type="VI" URL="../Dac_release_all_lines.vi"/>
 		<Item Name="Dac_Voice_coil_Camera_trigger.vi" Type="VI" URL="../Dac_Voice_coil_Camera_trigger.vi"/>
+		<Item Name="DAQ_channel_setup.vi" Type="VI" URL="../DAQ_channel_setup.vi"/>
+		<Item Name="DAQ_channel_typedef.ctl" Type="VI" URL="../../Calibration files/DAQ_channel_typedef.ctl"/>
 		<Item Name="Digital_write.vi" Type="VI" URL="../Digital_write.vi"/>
 		<Item Name="Digital_write_PFI_trigger.vi" Type="VI" URL="../Digital_write_PFI_trigger.vi"/>
 		<Item Name="Digital_write_signal.vi" Type="VI" URL="../Digital_write_signal.vi"/>
@@ -28,6 +30,7 @@
 		<Item Name="Global stop.vi" Type="VI" URL="../Global stop.vi"/>
 		<Item Name="Laser_toggles_typedef.ctl" Type="VI" URL="../typedefs/Laser_toggles_typedef.ctl"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="Main1.vi" Type="VI" URL="../Main1.vi"/>
 		<Item Name="ProjectPulseOutputTask" Type="NI-DAQmx Task">
 			<Property Name="\0\ChanType" Type="Str">Counter Output</Property>
 			<Property Name="\0\CO.OutputType" Type="Str">Pulse:Time</Property>
