@@ -48,6 +48,7 @@
 			<Property Name="SampTimingType" Type="Str">Implicit</Property>
 		</Item>
 		<Item Name="SAE_stage_control.vi" Type="VI" URL="../SAE_stage_control.vi"/>
+		<Item Name="Sawtooth generation VI.vi" Type="VI" URL="../Sawtooth generation VI.vi"/>
 		<Item Name="stage Line" Type="NI-DAQmx Channel">
 			<Property Name="ChanType" Type="Str">Digital Output</Property>
 			<Property Name="Descr" Type="Str"></Property>
@@ -71,6 +72,7 @@
 		<Item Name="Sync AO and DO CTRdriven.vi" Type="VI" URL="../Sync AO and DO CTRdriven.vi"/>
 		<Item Name="testproject.aliases" Type="Document" URL="../testproject.aliases"/>
 		<Item Name="testproject.lvlps" Type="Document" URL="../testproject.lvlps"/>
+		<Item Name="typedef_XY_tiling.ctl" Type="VI" URL="../typedefs/typedef_XY_tiling.ctl"/>
 		<Item Name="voice coil" Type="NI-DAQmx Task">
 			<Property Name="\0\AO.Max" Type="Str">0.6</Property>
 			<Property Name="\0\AO.Min" Type="Str">-0.6</Property>
@@ -92,6 +94,7 @@
 		</Item>
 		<Item Name="Voice_coil_control.vi" Type="VI" URL="../Voice_coil_control.vi"/>
 		<Item Name="Voice_coil_GB_var.vi" Type="VI" URL="../Voice_coil_GB_var.vi"/>
+		<Item Name="XY_string_generator.vi" Type="VI" URL="../XY_string_generator.vi"/>
 		<Item Name="XYZ stage control.vi" Type="VI" URL="../../XYZ stage control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -262,6 +265,7 @@
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
@@ -271,6 +275,8 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
@@ -284,6 +290,7 @@
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
+				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -293,6 +300,7 @@
 			<Item Name="Laser_order_controller_vi.vi" Type="VI" URL="../../pan-ASLM project/Laser_order_controller_vi.vi"/>
 			<Item Name="Laser_toggles__manual_typedef.ctl" Type="VI" URL="../typedefs/Laser_toggles__manual_typedef.ctl"/>
 			<Item Name="Laser_toggles_typedef.ctl" Type="VI" URL="../../pan-ASLM project/type_defs/Laser_toggles_typedef.ctl"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
