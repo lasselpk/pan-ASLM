@@ -25,6 +25,7 @@
 		<Item Name="Digital_write_PFI_trigger.vi" Type="VI" URL="../Digital_write_PFI_trigger.vi"/>
 		<Item Name="Digital_write_signal.vi" Type="VI" URL="../Digital_write_signal.vi"/>
 		<Item Name="eventListenerTest.vi" Type="VI" URL="../eventListenerTest.vi"/>
+		<Item Name="fiji_opener.vi" Type="VI" URL="../fiji_opener.vi"/>
 		<Item Name="get_stage_position.vi" Type="VI" URL="../get_stage_position.vi"/>
 		<Item Name="Global stop DAQ.vi" Type="VI" URL="../Global stop DAQ.vi"/>
 		<Item Name="Global stop.vi" Type="VI" URL="../Global stop.vi"/>
@@ -72,6 +73,7 @@
 		<Item Name="Sync AO and DO CTRdriven.vi" Type="VI" URL="../Sync AO and DO CTRdriven.vi"/>
 		<Item Name="testproject.aliases" Type="Document" URL="../testproject.aliases"/>
 		<Item Name="testproject.lvlps" Type="Document" URL="../testproject.lvlps"/>
+		<Item Name="typedef_sawtooth_control.ctl" Type="VI" URL="../typedefs/typedef_sawtooth_control.ctl"/>
 		<Item Name="typedef_XY_tiling.ctl" Type="VI" URL="../typedefs/typedef_XY_tiling.ctl"/>
 		<Item Name="voice coil" Type="NI-DAQmx Task">
 			<Property Name="\0\AO.Max" Type="Str">0.6</Property>
@@ -291,6 +293,7 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
