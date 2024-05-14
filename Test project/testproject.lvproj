@@ -96,6 +96,7 @@
 		</Item>
 		<Item Name="Voice_coil_control.vi" Type="VI" URL="../Voice_coil_control.vi"/>
 		<Item Name="Voice_coil_GB_var.vi" Type="VI" URL="../Voice_coil_GB_var.vi"/>
+		<Item Name="XY_sequence_generator.vi" Type="VI" URL="../XY_sequence_generator.vi"/>
 		<Item Name="XY_string_generator.vi" Type="VI" URL="../XY_string_generator.vi"/>
 		<Item Name="XYZ stage control.vi" Type="VI" URL="../../XYZ stage control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
