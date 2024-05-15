@@ -70,6 +70,7 @@
 		<Item Name="Stage_move_axis.vi" Type="VI" URL="../Stage_move_axis.vi"/>
 		<Item Name="Stage_move_to_destination.vi" Type="VI" URL="../Stage_move_to_destination.vi"/>
 		<Item Name="Stage_z_stack.vi" Type="VI" URL="../Stage_z_stack.vi"/>
+		<Item Name="String_to_move_stage.vi" Type="VI" URL="../String_to_move_stage.vi"/>
 		<Item Name="Sync AO and DO CTRdriven.vi" Type="VI" URL="../Sync AO and DO CTRdriven.vi"/>
 		<Item Name="testproject.aliases" Type="Document" URL="../testproject.aliases"/>
 		<Item Name="testproject.lvlps" Type="Document" URL="../testproject.lvlps"/>
