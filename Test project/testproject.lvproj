@@ -29,6 +29,7 @@
 		<Item Name="get_stage_position.vi" Type="VI" URL="../get_stage_position.vi"/>
 		<Item Name="Global stop DAQ.vi" Type="VI" URL="../Global stop DAQ.vi"/>
 		<Item Name="Global stop.vi" Type="VI" URL="../Global stop.vi"/>
+		<Item Name="GlobalCommandFinishedFlag.vi" Type="VI" URL="../GlobalCommandFinishedFlag.vi"/>
 		<Item Name="Laser_toggles_typedef.ctl" Type="VI" URL="../typedefs/Laser_toggles_typedef.ctl"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Main1.vi" Type="VI" URL="../Main1.vi"/>
