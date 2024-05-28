@@ -49,6 +49,7 @@
 			<Property Name="SampQuant.SampPerChan" Type="Str">1</Property>
 			<Property Name="SampTimingType" Type="Str">Implicit</Property>
 		</Item>
+		<Item Name="Recordingdirection.ctl" Type="VI" URL="../typedefs/Recordingdirection.ctl"/>
 		<Item Name="SAE_stage_control.vi" Type="VI" URL="../SAE_stage_control.vi"/>
 		<Item Name="Sawtooth generation VI.vi" Type="VI" URL="../Sawtooth generation VI.vi"/>
 		<Item Name="stage Line" Type="NI-DAQmx Channel">
@@ -99,6 +100,7 @@
 		<Item Name="Voice_coil_control.vi" Type="VI" URL="../Voice_coil_control.vi"/>
 		<Item Name="Voice_coil_GB_var.vi" Type="VI" URL="../Voice_coil_GB_var.vi"/>
 		<Item Name="XY_sequence_generator.vi" Type="VI" URL="../XY_sequence_generator.vi"/>
+		<Item Name="XY_sequence_generator2.vi" Type="VI" URL="../XY_sequence_generator2.vi"/>
 		<Item Name="XY_string_generator.vi" Type="VI" URL="../XY_string_generator.vi"/>
 		<Item Name="XYZ stage control.vi" Type="VI" URL="../../XYZ stage control.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
