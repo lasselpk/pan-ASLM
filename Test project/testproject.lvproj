@@ -26,6 +26,7 @@
 		<Item Name="Digital_write_signal.vi" Type="VI" URL="../Digital_write_signal.vi"/>
 		<Item Name="eventListenerTest.vi" Type="VI" URL="../eventListenerTest.vi"/>
 		<Item Name="fiji_opener.vi" Type="VI" URL="../fiji_opener.vi"/>
+		<Item Name="FileWriterTest.vi" Type="VI" URL="../FileWriterTest.vi"/>
 		<Item Name="get_stage_position.vi" Type="VI" URL="../get_stage_position.vi"/>
 		<Item Name="Global stop DAQ.vi" Type="VI" URL="../Global stop DAQ.vi"/>
 		<Item Name="Global stop.vi" Type="VI" URL="../Global stop.vi"/>
@@ -33,6 +34,7 @@
 		<Item Name="Laser_toggles_typedef.ctl" Type="VI" URL="../typedefs/Laser_toggles_typedef.ctl"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Main1.vi" Type="VI" URL="../Main1.vi"/>
+		<Item Name="positionLogSaver.vi" Type="VI" URL="../positionLogSaver.vi"/>
 		<Item Name="ProjectPulseOutputTask" Type="NI-DAQmx Task">
 			<Property Name="\0\ChanType" Type="Str">Counter Output</Property>
 			<Property Name="\0\CO.OutputType" Type="Str">Pulse:Time</Property>
@@ -287,6 +289,10 @@
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
+				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
+				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
+				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
+				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
 				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
@@ -297,6 +303,7 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
