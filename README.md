@@ -1,5 +1,5 @@
 # pan-ASLM
-Axially swept light-sheet microscope for pan-expanded tissue
+Axially swept light-sheet microscope for pan-Expansion microscopy samples
 
 
 # Installing libraries
