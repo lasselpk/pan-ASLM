@@ -315,7 +315,6 @@
 			</Item>
 			<Item Name="Laser_order_controller_vi.vi" Type="VI" URL="../../pan-ASLM project/Laser_order_controller_vi.vi"/>
 			<Item Name="Laser_toggles__manual_typedef.ctl" Type="VI" URL="../typedefs/Laser_toggles__manual_typedef.ctl"/>
-			<Item Name="Laser_toggles_typedef.ctl" Type="VI" URL="../../pan-ASLM project/type_defs/Laser_toggles_typedef.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
