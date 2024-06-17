@@ -27,6 +27,7 @@
 		<Item Name="eventListenerTest.vi" Type="VI" URL="../eventListenerTest.vi"/>
 		<Item Name="fiji_opener.vi" Type="VI" URL="../fiji_opener.vi"/>
 		<Item Name="FileWriterTest.vi" Type="VI" URL="../FileWriterTest.vi"/>
+		<Item Name="Get_file_1st_element.vi" Type="VI" URL="../Get_file_1st_element.vi"/>
 		<Item Name="get_stage_position.vi" Type="VI" URL="../get_stage_position.vi"/>
 		<Item Name="Global stop DAQ.vi" Type="VI" URL="../Global stop DAQ.vi"/>
 		<Item Name="Global stop.vi" Type="VI" URL="../Global stop.vi"/>
@@ -99,12 +100,14 @@
 			<Property Name="SampQuant.SampPerChan" Type="Str">1025</Property>
 			<Property Name="SampTimingType" Type="Str">Sample Clock</Property>
 		</Item>
+		<Item Name="Voice coil initial voltage VI.vi" Type="VI" URL="../Voice coil initial voltage VI.vi"/>
 		<Item Name="Voice_coil_control.vi" Type="VI" URL="../Voice_coil_control.vi"/>
 		<Item Name="Voice_coil_GB_var.vi" Type="VI" URL="../Voice_coil_GB_var.vi"/>
 		<Item Name="XY_sequence_generator.vi" Type="VI" URL="../XY_sequence_generator.vi"/>
 		<Item Name="XY_sequence_generator2.vi" Type="VI" URL="../XY_sequence_generator2.vi"/>
 		<Item Name="XY_string_generator.vi" Type="VI" URL="../XY_string_generator.vi"/>
 		<Item Name="XYZ stage control.vi" Type="VI" URL="../../XYZ stage control.vi"/>
+		<Item Name="XYZ_sequence_generator.vi" Type="VI" URL="../XYZ_sequence_generator.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
