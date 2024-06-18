@@ -79,6 +79,7 @@
 		<Item Name="Sync AO and DO CTRdriven.vi" Type="VI" URL="../Sync AO and DO CTRdriven.vi"/>
 		<Item Name="testproject.aliases" Type="Document" URL="../testproject.aliases"/>
 		<Item Name="testproject.lvlps" Type="Document" URL="../testproject.lvlps"/>
+		<Item Name="typedef_boundaries.ctl" Type="VI" URL="../typedefs/typedef_boundaries.ctl"/>
 		<Item Name="typedef_sawtooth_control.ctl" Type="VI" URL="../typedefs/typedef_sawtooth_control.ctl"/>
 		<Item Name="typedef_XY_tiling.ctl" Type="VI" URL="../typedefs/typedef_XY_tiling.ctl"/>
 		<Item Name="voice coil" Type="NI-DAQmx Task">
