@@ -11,6 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="AOTF laser control manual.vi" Type="VI" URL="../AOTF laser control manual.vi"/>
+		<Item Name="AOTF turn off.vi" Type="VI" URL="../AOTF turn off.vi"/>
 		<Item Name="Control_stage.vi" Type="VI" URL="../Control_stage.vi"/>
 		<Item Name="Control_stage_2.vi" Type="VI" URL="../Control_stage_2.vi"/>
 		<Item Name="Control_stage_event_que.vi" Type="VI" URL="../Control_stage_event_que.vi"/>
