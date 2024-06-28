@@ -32,8 +32,10 @@
 		<Item Name="get_stage_position.vi" Type="VI" URL="../get_stage_position.vi"/>
 		<Item Name="Global Counter count.vi" Type="VI" URL="../Global Counter count.vi"/>
 		<Item Name="Global DAQ started.vi" Type="VI" URL="../Global DAQ started.vi"/>
+		<Item Name="Global destination achieved.vi" Type="VI" URL="../Global destination achieved.vi"/>
 		<Item Name="Global stop DAQ.vi" Type="VI" URL="../Global stop DAQ.vi"/>
 		<Item Name="Global stop.vi" Type="VI" URL="../Global stop.vi"/>
+		<Item Name="Global Z-stack acquistion finished flag.vi" Type="VI" URL="../Global Z-stack acquistion finished flag.vi"/>
 		<Item Name="GlobalCommandFinishedFlag.vi" Type="VI" URL="../GlobalCommandFinishedFlag.vi"/>
 		<Item Name="Laser_toggles_typedef.ctl" Type="VI" URL="../typedefs/Laser_toggles_typedef.ctl"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
@@ -112,6 +114,7 @@
 		<Item Name="XY_string_generator.vi" Type="VI" URL="../XY_string_generator.vi"/>
 		<Item Name="XYZ stage control.vi" Type="VI" URL="../../XYZ stage control.vi"/>
 		<Item Name="XYZ_sequence_generator.vi" Type="VI" URL="../XYZ_sequence_generator.vi"/>
+		<Item Name="XYZ_sequence_generator_with_flags.vi" Type="VI" URL="../XYZ_sequence_generator_with_flags.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
