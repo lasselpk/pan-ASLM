@@ -324,12 +324,16 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Dac_Output_cam_trig_multiple_digital_signals_test.vi" Type="VI" URL="../Dac_Output_cam_trig_multiple_digital_signals_test.vi"/>
+			<Item Name="Global stage boundaries.vi" Type="VI" URL="../Global stage boundaries.vi"/>
 			<Item Name="Laser_order_controller_vi.vi" Type="VI" URL="../../pan-ASLM project/Laser_order_controller_vi.vi"/>
 			<Item Name="Laser_toggles__manual_typedef.ctl" Type="VI" URL="../typedefs/Laser_toggles__manual_typedef.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Stage update boundary.vi" Type="VI" URL="../Stage update boundary.vi"/>
+			<Item Name="typedef_acquisition.ctl" Type="VI" URL="../typedefs/typedef_acquisition.ctl"/>
+			<Item Name="typedef_laser_order_control.ctl" Type="VI" URL="../typedefs/typedef_laser_order_control.ctl"/>
 			<Item Name="typedef_stage_control.ctl" Type="VI" URL="../typedefs/typedef_stage_control.ctl"/>
 			<Item Name="typedef_stage_position.ctl" Type="VI" URL="../typedefs/typedef_stage_position.ctl"/>
 			<Item Name="typedef_voice_coil_function_generation.ctl" Type="VI" URL="../typedefs/typedef_voice_coil_function_generation.ctl"/>
