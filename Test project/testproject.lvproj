@@ -29,7 +29,6 @@
 		<Item Name="Digital_write_PFI_trigger.vi" Type="VI" URL="../Digital_write_PFI_trigger.vi"/>
 		<Item Name="Digital_write_signal.vi" Type="VI" URL="../Digital_write_signal.vi"/>
 		<Item Name="eventListenerTest.vi" Type="VI" URL="../eventListenerTest.vi"/>
-		<Item Name="Fig 2 - Multi-Function-Synch AI-AO.vi" Type="VI" URL="../../../../../Downloads/Synchronization Example Code/Fig 2 - Multi-Function-Synch AI-AO.vi"/>
 		<Item Name="fiji_opener.vi" Type="VI" URL="../fiji_opener.vi"/>
 		<Item Name="Get_file_1st_element.vi" Type="VI" URL="../Get_file_1st_element.vi"/>
 		<Item Name="get_stage_position.vi" Type="VI" URL="../get_stage_position.vi"/>
