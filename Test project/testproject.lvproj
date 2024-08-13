@@ -25,11 +25,6 @@
 		<Item Name="Dac_Voice_coil_Camera_trigger.vi" Type="VI" URL="../Dac_Voice_coil_Camera_trigger.vi"/>
 		<Item Name="DAQ_channel_setup.vi" Type="VI" URL="../DAQ_channel_setup.vi"/>
 		<Item Name="DAQ_channel_typedef.ctl" Type="VI" URL="../../Calibration files/DAQ_channel_typedef.ctl"/>
-		<Item Name="Digital_write.vi" Type="VI" URL="../Digital_write.vi"/>
-		<Item Name="Digital_write_PFI_trigger.vi" Type="VI" URL="../Digital_write_PFI_trigger.vi"/>
-		<Item Name="Digital_write_signal.vi" Type="VI" URL="../Digital_write_signal.vi"/>
-		<Item Name="eventListenerTest.vi" Type="VI" URL="../eventListenerTest.vi"/>
-		<Item Name="fiji_opener.vi" Type="VI" URL="../fiji_opener.vi"/>
 		<Item Name="Get_file_1st_element.vi" Type="VI" URL="../Get_file_1st_element.vi"/>
 		<Item Name="get_stage_position.vi" Type="VI" URL="../get_stage_position.vi"/>
 		<Item Name="Global Counter count.vi" Type="VI" URL="../Global Counter count.vi"/>
@@ -40,7 +35,6 @@
 		<Item Name="Global Z-stack acquistion finished flag.vi" Type="VI" URL="../Global Z-stack acquistion finished flag.vi"/>
 		<Item Name="GlobalCommandFinishedFlag.vi" Type="VI" URL="../GlobalCommandFinishedFlag.vi"/>
 		<Item Name="Laser_toggles_typedef.ctl" Type="VI" URL="../typedefs/Laser_toggles_typedef.ctl"/>
-		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Main1.vi" Type="VI" URL="../Main1.vi"/>
 		<Item Name="ParameterOptimizationCalibration.vi" Type="VI" URL="../ParameterOptimizationCalibration.vi"/>
 		<Item Name="positionLogSaver.vi" Type="VI" URL="../positionLogSaver.vi"/>
@@ -84,7 +78,6 @@
 		<Item Name="Stage_move_to_destination.vi" Type="VI" URL="../Stage_move_to_destination.vi"/>
 		<Item Name="Stage_z_stack.vi" Type="VI" URL="../Stage_z_stack.vi"/>
 		<Item Name="String_to_move_stage.vi" Type="VI" URL="../String_to_move_stage.vi"/>
-		<Item Name="Sync AO and DO CTRdriven.vi" Type="VI" URL="../Sync AO and DO CTRdriven.vi"/>
 		<Item Name="testproject.aliases" Type="Document" URL="../testproject.aliases"/>
 		<Item Name="testproject.lvlps" Type="Document" URL="../testproject.lvlps"/>
 		<Item Name="typedef_boundaries.ctl" Type="VI" URL="../typedefs/typedef_boundaries.ctl"/>
@@ -111,7 +104,6 @@
 		</Item>
 		<Item Name="Voice coil initial voltage VI.vi" Type="VI" URL="../Voice coil initial voltage VI.vi"/>
 		<Item Name="Voice_coil_control.vi" Type="VI" URL="../Voice_coil_control.vi"/>
-		<Item Name="Voice_coil_GB_var.vi" Type="VI" URL="../Voice_coil_GB_var.vi"/>
 		<Item Name="XY_sequence_generator.vi" Type="VI" URL="../XY_sequence_generator.vi"/>
 		<Item Name="XY_sequence_generator2.vi" Type="VI" URL="../XY_sequence_generator2.vi"/>
 		<Item Name="XY_string_generator.vi" Type="VI" URL="../XY_string_generator.vi"/>
@@ -343,17 +335,10 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Digital Pattern Generator (Marching Values).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Digital Pattern Generator (Marching Values).vi"/>
-				<Item Name="Digital Pattern Generator (Ramp).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Digital Pattern Generator (Ramp).vi"/>
-				<Item Name="Digital Pattern Generator (Random).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Digital Pattern Generator (Random).vi"/>
-				<Item Name="Digital Pattern Generator (Single Value).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Digital Pattern Generator (Single Value).vi"/>
-				<Item Name="Digital Pattern Generator (Toggle).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Digital Pattern Generator (Toggle).vi"/>
-				<Item Name="Digital Pattern Generator.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Digital Pattern Generator.vi"/>
 				<Item Name="DTbl Compress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Compress Digital.vi"/>
 				<Item Name="DTbl Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Size.vi"/>
 				<Item Name="DTbl Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Uncompress Digital.vi"/>
 				<Item Name="DWDT Compress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Compress Digital.vi"/>
-				<Item Name="DWDT Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Empty Digital.vi"/>
 				<Item Name="DWDT Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Uncompress Digital.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -392,7 +377,6 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
-				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
