@@ -1,6 +1,6 @@
 # pan-ASLM: A high resolution and large field of view light sheet microscope for expansion microscopy
 This GitHub page covers the code required for the pan-ASLM microscope described in *“pan-ASLM: A high resolution and large field of view light sheet microscope for expansion microscopy”*  
-by H. Mekbib et al., submitted to ___ (2025). [Preprint coming soon] . The microscope is controlled using LabVIEW 2020 
+by H. Mekbib et al., submitted to BioRxiv (2025). https://doi.org/10.1101/2025.08.06.668765 . The microscope is controlled using LabVIEW 2020 
 
 # Software Interface
 The interface allows to setup acquisition of up to 4 lasers and selecting the number of images to be acquired in XYZ.
@@ -20,6 +20,4 @@ The SPIIPlus software has to be installed before the LabVIEW software can commun
 ## Citation
 This code accompanies the paper:  
 *“pan-ASLM: A high resolution and large field of view light sheet microscope for expansion microscopy”*  
-by H. Mekbib et al., submitted to ___ (2025). [Preprint coming soon]
-
-A DOI-link to the paper will be stated here upon publication.
+by H. Mekbib et al., submitted to BioRxiv (2025). (https://doi.org/10.1101/2025.08.06.668765)
